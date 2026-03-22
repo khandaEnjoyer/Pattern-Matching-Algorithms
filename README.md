@@ -34,6 +34,42 @@ This project implements and compares several classical string searching algorith
 
 ---
 
-## 📌 Example
+## How to Use
 
-Input:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/khandaEnjoyer/Pattern-Matching-Algorithms.git
+```
+Change directory to the project folder:
+
+```bash
+cd Pattern-Matching-Algorithms
+```
+Compile the program (replace pattern_matching.cpp with your actual file name if different):
+
+```bash
+g++ -std=c++17 -O2 -o pattern_matching pattern_matching.cpp
+```
+Run the program:
+
+```bash
+./pattern_matching
+```
+Expected output for input="aabaaabaaa", word = "aba":
+
+--- Naive Search ---
+Match found at index: 1
+Match found at index: 5
+
+--- Sunday Search ---
+Match found at index: 1
+Match found at index: 5
+
+--- Double Sunday Search ---
+Match found at index: 1
+Match found at index: 5
+
+--- KMP Search ---
+Match found at index: 1
+Match found at index: 5
