@@ -56,20 +56,20 @@ Run the program:
 ```bash
 ./pattern_matching
 ```
-Expected output for input="aabaaabaaa", word = "aba":
+## Expected output for input="aabaaabaaa", word = "aba":
 
 --- Naive Search ---
-Match found at index: 1
-Match found at index: 5
+- Match found at index: 1
+- Match found at index: 5
 
 --- Sunday Search ---
-Match found at index: 1
-Match found at index: 5
+- Match found at index: 1
+- Match found at index: 5
 
 --- Double Sunday Search ---
-Match found at index: 1
-Match found at index: 5
+- Match found at index: 1
+- Match found at index: 5
 
 --- KMP Search ---
-Match found at index: 1
-Match found at index: 5
+- Match found at index: 1
+- Match found at index: 5
